@@ -38,5 +38,6 @@ endif
 # RIL
 ifeq ($(BOARD_VENDOR),samsung)
 include $(SAM_ROOT)/modemloader/Android.mk
+include $(SAM_ROOT)/power/Android.mk
 include $(SAM_ROOT)/ril/Android.mk
 endif
