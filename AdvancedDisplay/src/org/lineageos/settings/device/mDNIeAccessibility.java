@@ -25,7 +25,7 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceManager;
 import android.util.AttributeSet;
 
-import org.lineageos.internal.util.FileUtils;
+import com.evervolv.internal.util.FileUtils;
 
 public class mDNIeAccessibility extends ListPreference implements OnPreferenceChangeListener {
 
