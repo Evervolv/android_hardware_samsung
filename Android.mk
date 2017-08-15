@@ -37,7 +37,6 @@ endif
 
 # RIL
 ifeq ($(BOARD_VENDOR),samsung)
-include $(SAM_ROOT)/AdvancedDisplay/Android.mk
 include $(SAM_ROOT)/consumerir/Android.mk
 include $(SAM_ROOT)/liblights/Android.mk
 include $(SAM_ROOT)/modemloader/Android.mk
